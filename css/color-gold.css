@@ -1,0 +1,73 @@
+/*-----------------
+* [Master Stylesheet]
+------------------*/
+::-webkit-scrollbar{
+    width: 4px;
+    color:gold;
+}
+::-webkit-scrollbar-thumb {
+    background: gold; 
+    border-radius: 4px;
+    width: 4px;
+  }
+  #breaker{
+      background-color: gold;
+  }
+  .color{
+      color: gold;
+  }
+  #about-content a{
+      color:gold ;
+  }
+  .cv a button{
+      background: gold;
+  }
+  .service-img img{
+    background: gold;
+    box-shadow:0px 0px 0px 0px gold ;
+  }
+  .service:hover .service-img img{
+    box-shadow:0px 0px 0px 400px gold ;
+}
+.html-progress{
+    background: gold;
+}
+.js-progress{
+    background: gold;
+}
+.adobe-progress{
+    background: gold;
+}
+.php-progress{
+    background: gold;
+}
+.jquery-progress{
+    background: gold;
+}
+.seo-progress{
+    background: gold;
+}
+.portfolio-text h2{
+    color: gold;
+}
+.portfolio-text button{
+    color: gold;
+    border: 1.5px solid gold;
+}
+.portfolio-text button::before{
+    background: gold;
+}
+.portfolio-image img::before{
+    background: gold;
+}
+.blog-date{
+    background: gold;
+}
+form button{
+    background: gold;
+}
+@media all and (max-width: 550px) and (min-width: 5px){
+    .service:hover .service-img img{
+        box-shadow:0px 0px 0px 0px #c70039 ;
+    }
+}
